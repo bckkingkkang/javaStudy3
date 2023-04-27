@@ -1,0 +1,96 @@
+패키지 practice.person 생성 > Person 클래스 생성
+package practice.person;
+
+public class Person {
+
+	// 이름
+
+	
+	// 나이는 모두 25살로 미리 정의 
+	
+
+	// 번호 number
+
+
+	// 사람의 정보 출력 personInfo
+	// ex. 이름은 ㅇㅇㅇ, 나이는 ㅇ살, 번호는 ㅇ번입니다.
+
+
+
+	// 포인트 point
+
+
+	// name(String type)을 입력받아 Point를 출력해주는 personPoint() 메소드 생성
+	// ex. ㅇㅇㅇ의 포인트는 ㅇㅇ입니다.
+
+		
+	// name, age 를 입력받아 정보를 출력하는 Info() 메소드 생성
+	// ex. 이름 : 나이
+
+
+	// 어떤 정수를 전달받아도 10을 리턴하는 tenReturn() 메소드 생성
+
+
+	// 입력받은 정수가 5가 아닌 경우 5가 아닙니다 문구를 출력하는 fiveCollector() 메소드 생성
+
+
+}
+
+-------------------------------------------------------------------------------------------
+practice.main 패키지 생성 > MainPerson 클래스 생성
+package practice.main;
+
+public class MainPerson {
+	public static void main(String[] args) {
+
+		// person1 생성 (고가현, 1) 저장
+
+		// person2 생성 (이진영, 2) 저장
+
+		// person3 생성 (김수정, 3) 저장
+
+		// person1 나이만 26으로 수정
+
+		// person1, person3의 personInfo() 출력
+		
+
+
+		// point 50, 100, 20 각각 저장하고 총합 출력
+
+		// point 총합을 저장하는 변수 생성
+
+		// point 총합을 출력하고 
+		// 100이 넘으면 합격 문구 출력, 100 미만이면 불합격 문구 출력
+
+
+
+		// practice.person 패키지 내 calc 클래스 생성 > 정수 2개를 입력받아 정수의 합을 출력해주는 sum() 메소드 생성
+		// Calc 객체 cal로 사용
+		// sum() 메소드를 사용 565123, 54123 합 출력
+
+		
+		// 정수 두 개를 입력받아 나누는 div() 메소드 생성
+		// div() 메소드 사용, 180을 36으로 나눈 값 출력
+		
+		
+		// 실수 두 개를 입력받아 나누는 min() 메소드 생성
+		// min() 메소드 사용, 45.5에서 37.5를 뺀 값 출력
+
+		
+		Person p = new Person();
+
+		// Person 클래스에서 name(String type)을 입력받아 Point를 출력해주는 personPoint() 메소드 생성
+		// person2의 Point 출력
+
+		// Person 클래스에서 name, age 를 입력받아 정보를 출력하는 Info() 메소드 생성
+		// person3.Info() 출력
+
+
+		// 어떤 정수(int type)을 전달받아도 10을 리턴하는 tenReturn() 메소드 생성
+		// 정수 5를 입력 10 return
+		// 정수 25를 입력 10 return
+
+		// 입력받은 정수가 5가 아닌 경우 5가 아닙니다 문구를 출력하는 fiveCollector() 메소드 생성
+
+	}
+}
