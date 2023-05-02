@@ -6,4 +6,6 @@ public class Myutil extends BaseUtil {
 		System.out.println("불을 밝혀요");
 	}
 	
+	// ㅇㄻㄹ
+	
 }
